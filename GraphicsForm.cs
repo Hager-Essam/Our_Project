@@ -55,7 +55,7 @@ namespace Graphics
 
             if (e.KeyChar == 't')
                 renderer.scaleX *= 2;
-            if (e.KeyChar == 'y')
+            if (e.KeyChar == 'p')
                 renderer.scaleX /= 2;
             if (e.KeyChar == 'u')
                 renderer.scaleY *= 2;
