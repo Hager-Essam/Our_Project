@@ -53,6 +53,18 @@ namespace Graphics
             if (e.KeyChar == 'c')
                 renderer.translationZ -= speed;
 
+            if (e.KeyChar == 't')
+                renderer.scaleX *= 2;
+            if (e.KeyChar == 'y')
+                renderer.scaleX /= 2;
+            if (e.KeyChar == 'u')
+                renderer.scaleY *= 2;
+            if (e.KeyChar == 'i')
+                renderer.scaleY /= 2;
+            /*if (e.KeyChar == 'o')
+                renderer.scaleZ *= 2;
+            if (e.KeyChar == 'p')
+                renderer.scaleZ /= 2;*/
             simpleOpenGlControl1.Refresh();
         }
 
