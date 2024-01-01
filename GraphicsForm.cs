@@ -38,7 +38,7 @@ namespace Graphics
         {
             float speed = 5;
 
-            if (e.KeyChar == 'd')
+            if (e.KeyChar == 'e')
                 renderer.translationX += speed;
             if (e.KeyChar == 'a')
                 renderer.translationX -= speed;
